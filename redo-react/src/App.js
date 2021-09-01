@@ -1,13 +1,9 @@
 import './App.css';
+import TodoList from './TodoList';
 
 function App() {
   return (
-    <div>
-      <label>
-        <input type="text" placeholder="write a new todo"/>
-        <button>Add Todo</button>
-      </label>
-    </div>
+    <TodoList />
   );
 }
 
